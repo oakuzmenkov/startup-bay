@@ -1,6 +1,6 @@
 module.exports = {
     title: "Стартап Бухта",
-    description: "Стартап Бухта — подкас стартаперов для стартаперов",
+    description: "Стартап Бухта — подкаст стартаперов для стартаперов",
     head: [["link", { rel: "icon", href: "/favicon.png" }]],
     plugins: [
         [
