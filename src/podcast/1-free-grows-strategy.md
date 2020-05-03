@@ -6,7 +6,11 @@ type: post
 blog: true
 ---
 
-<ListenLinks spotify="https://open.spotify.com/episode/1Mr6P6uQenxY4jQlU4LJ1Q" yandex=""/>
+<ListenLinks
+anchor="https://anchor.fm/startup-bay/episodes/ep-edibvq/a-a23g65i"
+spotify="https://open.spotify.com/episode/1Mr6P6uQenxY4jQlU4LJ1Q"
+yandex=""
+rss="https://anchor.fm/s/1f797fec/podcast/rss"/>
 
 ### Закрыть стартап, выгореть и записать подкаст
 
