@@ -2,7 +2,7 @@
 home: true
 heroImage: /hero.png
 heroText: Стартап Бухта
-tagline: Говорят Стартаперы для Стартаперов
+tagline: Подкаст Стартаперы для Стартаперов
 actionText: Жми →
 actionLink: /podcast/
 features:
