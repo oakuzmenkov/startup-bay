@@ -16,7 +16,7 @@ export default {
                 day: "numeric",
             };
 
-            return dateFormat.toLocaleDateString("en-US", options);
+            return dateFormat.toLocaleDateString("ru-RU", options);
         },
     },
 };
@@ -24,12 +24,13 @@ export default {
 
 <template>
 	<section>
-        <div class="blog-post__container">
+        <div
+        class="blog-post__container">
         <time>{{ formatPublishDate }}</time>
         <h3 class="blog-post__title">{{ item.frontmatter.title }}</h3>
         <p v-if="item.frontmatter.excerpt">{{ item.frontmatter.excerpt }}</p>
         <!-- <p v-if="item.readingTime">Estimated time: {{ item.readingTime.text }}</p> -->
-        <router-link class="button blog-post__button" :to="item.path">Read More ></router-link>
+        <router-link class="button blog-post__button" :to="item.path">Перейти ></router-link>
         </div>
     </section>
 </template>

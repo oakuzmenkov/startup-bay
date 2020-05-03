@@ -34,7 +34,7 @@ module.exports = {
             "vuepress-plugin-rss",
             {
                 base_url: "/",
-                site_url: "https://startupbay.netlify.app/",
+                site_url: "https://startupbay.netlify.app",
                 filter: (frontmatter) =>
                     frontmatter.date <= new Date(currentDateUTC),
                 count: 20,
