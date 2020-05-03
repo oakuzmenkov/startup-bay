@@ -10,7 +10,7 @@ module.exports = {
         // editLinkText: 'Found a bug? Help me improve this page!',
         nav: [
             { text: "Home", link: "/" },
-            { text: "Подкаст", link: "/podcast" },
+            { text: "Подкаст", link: "/podcast/" },
             { text: "JSHunt", link: "https://jshunt.by", rel: "sponsored" },
             {
                 text: "Seller Assistant App",
@@ -24,6 +24,7 @@ module.exports = {
         startPage: 0,
     },
     plugins: [
+        // ["feed", feed_options],
         [
             "@vuepress/google-analytics",
             {
@@ -38,6 +39,7 @@ module.exports = {
                 filter: (frontmatter) =>
                     frontmatter.date <= new Date(currentDateUTC),
                 count: 20,
+                copyright: "Стартап Бухта",
             },
         ],
         "vuepress-plugin-reading-time",
