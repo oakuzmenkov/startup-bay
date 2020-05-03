@@ -16,8 +16,6 @@ title: Стартап бухта — Подкаст стартаперов дл�
 
 И так, представляем первую серию подкаста **Стартап Бухта**
 
-https://open.spotify.com/show/7nEgQaPAmUhPcIU463H9kP
-
 <BlogPostList
   :pages="$site.pages"
   :page-size="$site.themeConfig.pageSize"
